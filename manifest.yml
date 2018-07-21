@@ -1,0 +1,10 @@
+applications:
+- name: kaja2619
+  path: target/demo-0.0.1-SNAPSHOT.jar
+  domain: cfapps.io
+  memory: 1MB
+  instances: 1
+  
+  buildpack: https://github.com/cloudfoundry/php-buildpack.git#v3.2.2
+
+  
